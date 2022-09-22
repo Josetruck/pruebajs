@@ -24,21 +24,21 @@ function comparador() {
     if (num1x && num2x) {
         alert("Ambos números son pares y múltiplos de 25.");
     } else if (num1x || num2x) {
-        alert("Sólo uno de ellos es par y múltiplo de 25")
+        alert("Sólo uno de ellos es par y múltiplo de 25");
     } else {
-        alert("Ninguno de ellos es par y múltiplo de 25")
+        alert("Ninguno de ellos es par y múltiplo de 25");
     }
 }
 function palabra() {
     var palabra = prompt("Introduzca una palabra");
 
     if (palabra[0] == "a" && palabra[palabra.length - 1] == "a") {
-        alert("La palabra empieza y acaba por a")
+        alert("La palabra empieza y acaba por a");
     } else if (palabra[palabra.length - 1] == "a") {
-        alert("La palabra acaba por a")
+        alert("La palabra acaba por a");
     } else if (palabra[0] == "a") {
-        alert("La palabra empieza por a")
+        alert("La palabra empieza por a");
     } else {
-        alert("La palabra ni empieza ni termina por a")
+        alert("La palabra ni empieza ni termina por a");
     }
 }
